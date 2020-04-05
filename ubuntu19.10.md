@@ -1,5 +1,5 @@
 ### 更换国内软件源
-```
+```shell
 cd /etc/apt
 
 sudo mv sources.list sources.list.bak
@@ -19,14 +19,14 @@ deb-src https://mirrors.ustc.edu.cn/ubuntu/ eoan-updates main restricted univers
 deb https://mirrors.ustc.edu.cn/ubuntu/ eoan-backports main restricted universe multiverse
 deb-src https://mirrors.ustc.edu.cn/ubuntu/ eoan-backports main restricted universe multiverse
 ```
-```
+```shell
 sudo apt update
 
 sudo apt upgrade
 ```
 
 ### 安装shadowsocks-qt5,vim,git,netstat,curl,filezilla,wireshark,rar,unrar,zip,unzip,7z
-```
+```shell
 sudo apt install -y  vim shadowsocks-qt5  git  net-tools curl filezilla wireshark rar unrar zip unzip  p7zip-full
 ```
 
